@@ -245,25 +245,27 @@ video{
 }
 
 /*Responsive web design for cell phones.*/ 
-@media screen and (max-width:531px){
+@media screen and (max-width:767px){
     .about img{
-        width: 400px;
+        width: 280px;
         height: 200px;
     }
     button{
         position: relative;
-        left: 200px;
+        left: 250px;
+        display: inline-block;
     }
+
     .intro_left{
         font-size: 45px;
         text-shadow: black;
         text-align: center;
     }
 
+
     .text{
         position: relative;
         bottom: 200px;
-/*         bottom: 350px; */
     }
     .text .caption{
         position: absolute;
