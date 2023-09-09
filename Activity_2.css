@@ -252,7 +252,7 @@ video{
     }
     button{
         position: relative;
-        left: 250px;
+        left: -50px;
         display: inline-block;
     }
 
