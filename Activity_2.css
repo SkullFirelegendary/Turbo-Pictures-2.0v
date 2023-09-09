@@ -114,8 +114,8 @@ button:hover{
     color: #f2f3f2;
     font-size: 15px;
     padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
+    position: relative;
+    bottom: 550px;
     width: 100%;
     text-align: center;
 }
@@ -125,8 +125,9 @@ button:hover{
     color: #f2f3f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 50px;
+    right: 450px;
 }
 
 .dot{
@@ -239,9 +240,8 @@ video{
 
 /*Caption text2*/
 .text .caption{
-    position: absolute;
-    bottom: -180px;
-    right: 850px;
+    position: relative;
+    bottom: -470px;
 }
 
 /*Responsive web design for cell phones.*/ 
@@ -260,9 +260,13 @@ video{
         text-align: center;
     }
 
+    .text{
+        position: relative;
+        bottom: 350px;
+    }
     .text .caption{
         position: absolute;
-        bottom: -38px;
+        bottom: -300px;
         right: 0px;
         width: 100%;
         text-align: center;
