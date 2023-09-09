@@ -1,0 +1,289 @@
+*{
+    font-family: 'Oswald',sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.Logo img{
+    width: 140px;
+}
+
+h1{
+    font-family: 'Bold Dragon',sans-serif;
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+
+h2{
+    font-size: 30px;
+}
+ul{
+    background-color: #778899;
+    padding: 5px 0px;
+    
+}
+li{
+    list-style: none;
+}
+
+button{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative; left: 1100px;
+    background-color: #F6890A ;
+    border-radius: 3px;
+    border-color: black;
+    border-width: 5px;
+    font-size: 15px
+}
+
+button:hover{
+    font-weight: 20px;
+    color: #F6890A;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Introduction{
+    font-size: 20px;
+}
+
+.intro_left{
+    color: #F6890A;
+    font-size: 70px;
+    text-shadow: #778899 2px 2px;
+}
+
+.intro_left_end{
+    color: whitesmoke;
+}
+
+/*Slideshow container*/
+.slideshow-container{
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 1000px;
+    border-width: 20px;
+    border-color: black;
+}
+
+.slideshow-container img{
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.slides{
+    display: none;
+}
+
+.navigation-dots{
+    text-align: center;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: relative;
+    bottom: 0px;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #F6890A;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6secs ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/*Position the next button to the right.*/
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*On hover, add a black background color with a little transparency.*/
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*Caption text*/
+.text{
+    color: #f2f3f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/*Number text (1/3 etc) */
+.number_text{
+    color: #f2f3f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:#F6890A;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: black;
+}
+
+/*Fading animation*/
+.fade{
+    animation-name: fade;
+    animation-duration:  1.5s;
+}
+
+footer{
+    background-color: #778899;
+    padding: 20px 0px;
+    color:  whitesmoke;
+    font-weight: 200;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.4;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+                    About Web-page
+----------------------------------------------------------------------*/
+
+
+.Welcome{
+    font-family: 'Knife Princess',sans-serif;
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+}
+.container{
+    background-color:black ;
+
+}
+.header{
+    color: #F6890A;
+}
+
+.body2{
+    background-color: #FFAA33;
+}
+.about{
+    display: flex;
+}
+.about img{
+    /* align-items: left; */
+    width: 700px;
+    margin-left: 20px;
+}
+.text_info{
+    margin-left: 20px;
+    display: inline-block;
+    color: #f2f3f2;
+    font-size: 18px;
+
+}
+
+.Lets_chat button{
+    font-size: 20px;
+    position: relative;
+    bottom: 190px;
+    width: 20%;
+}
+.Lets_chat button:hover{
+    border-color: #00FF33;
+    background-color: rgba(59, 59, 59, 0.8);
+    color: whitesmoke;
+}
+
+.contact_icons a {
+    color: whitesmoke;
+}
+
+.contact_icons .phone{
+    text-decoration: none
+}
+
+/*----------------------------------------------------------------------
+                  Videos Blog Web-page
+----------------------------------------------------------------------*/
+
+video{
+    vertical-align: middle;
+    width: 900px;
+    border-radius: 20px;
+
+}
+
+/*Caption text2*/
+.text .caption{
+    position: absolute;
+    bottom: -180px;
+    right: 850px;
+}
+
+/*Responsive web design for cell phones.*/ 
+@media screen and (max-width:767px){
+    .about img{
+        width: 400px;
+        height: 200px;
+    }
+    button{
+        position: relative;
+        left: 200px;
+    }
+    .intro_left{
+        font-size: 45px;
+        text-shadow: black;
+        text-align: center;
+    }
+
+    .text .caption{
+        position: absolute;
+        bottom: -38px;
+        right: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Positions the Contact info to the left*/
+    .contact_icons a {
+        position: relative;
+        right: 300px;
+        bottom: 200px;
+    }
+
+    /*Reduces the video size to fit*/
+    video{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .prev, .next, .text{
+        font-size: 11px;
+    }
+    
+}
