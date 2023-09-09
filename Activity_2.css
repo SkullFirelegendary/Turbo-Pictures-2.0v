@@ -262,7 +262,8 @@ video{
 
     .text{
         position: relative;
-        bottom: 350px;
+        bottom: 250px;
+/*         bottom: 350px; */
     }
     .text .caption{
         position: absolute;
