@@ -5,6 +5,7 @@
 body{
     overflow-x: hidden;
 }
+
 .Logo img{
     width: 140px;
 }
@@ -252,7 +253,7 @@ video{
     }
     button{
         position: relative;
-        left: 100px;
+        left: 120px;
         display: inline-block;
     }
 
