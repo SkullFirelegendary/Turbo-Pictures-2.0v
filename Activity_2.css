@@ -286,6 +286,9 @@ video{
     video{
         width: 350px;
     }
+    .text_info{
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width:300px) {
