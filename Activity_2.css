@@ -208,13 +208,13 @@ footer{
 
 }
 
-.Lets_chat{
+.Lets_chat button{
     font-size: 20px;
     position: relative;
     bottom: 190px;
     width: 300px;
 }
-.Lets_chat:hover{
+.Lets_chat button:hover{
     border-color: #00FF33;
     background-color: rgba(59, 59, 59, 0.8);
     color: whitesmoke;
