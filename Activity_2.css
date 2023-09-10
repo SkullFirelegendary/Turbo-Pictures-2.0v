@@ -256,7 +256,9 @@ video{
         left: 80px;
         display: inline-block;
     }
-
+    .body2{
+        overflow-x: block;
+    }
     .intro_left{
         font-size: 45px;
         text-shadow: black;
