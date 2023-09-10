@@ -283,6 +283,10 @@ video{
         right: 200px;
         bottom: 100px;
     }
+    .contact_icons .phone{
+        position: absolute;
+        bottom: 120px;
+    }
      /*Reduces the video size to fit*/
     video{
         width: 350px;
