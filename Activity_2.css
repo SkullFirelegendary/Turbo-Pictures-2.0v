@@ -278,9 +278,10 @@ video{
 
     /*Positions the Contact info to the left*/
     .contact_icons a {
+        display: block;
         position: absolute;
         right: 200px;
-        bottom: 200px;
+        bottom: 100px;
     }
      /*Reduces the video size to fit*/
     video{
