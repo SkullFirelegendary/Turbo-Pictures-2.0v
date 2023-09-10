@@ -297,7 +297,8 @@ video{
     }
     .Lets_chat button{
         position: relative;
-        bottom: 200px;
+        bottom: 500px;
+        left: -100px;
         width: 180px;
     }
 }
