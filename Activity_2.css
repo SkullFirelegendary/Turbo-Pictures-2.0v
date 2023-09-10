@@ -270,7 +270,7 @@ video{
     }
     .text .caption{
         position: absolute;
-        bottom: 100px;
+        bottom: 80px;
         right: 0px;
         width: 100%;
         text-align: center;
