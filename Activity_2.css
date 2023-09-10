@@ -212,7 +212,7 @@ footer{
     font-size: 20px;
     position: relative;
     bottom: 190px;
-    width: 20%;
+    width: 300px;
 }
 .Lets_chat button:hover{
     border-color: #00FF33;
@@ -278,6 +278,7 @@ video{
 
     /*Positions the Contact info to the left*/
     .contact_icons a {
+        text-align: left;
         display: block;
         position: absolute;
         right: 200px;
@@ -293,6 +294,10 @@ video{
     }
     .text_info{
         font-size: 10px;
+    }
+    .Lets_chat{
+        position: relative;
+        bottom: 100px;
     }
 }
 
