@@ -282,10 +282,9 @@ video{
         right: 300px;
         bottom: 200px;
     }
-
-    /*Reduces the video size to fit*/
+     /*Reduces the video size to fit*/
     video{
-        width: 600px;
+        width: 380px;
     }
 }
 
