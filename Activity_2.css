@@ -286,7 +286,7 @@ video{
     video{
         width: 350px;
     }
-    .text_info{
+    .text_info, .contact_icons{
         font-size: 10px;
     }
 }
