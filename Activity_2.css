@@ -248,8 +248,8 @@ video{
 /*Responsive web design for cell phones.*/ 
 @media screen and (max-width:767px){
     .about img{
-        width: 280px;
-        height: 200px;
+        width: 180px;
+        height: 100px;
     }
     button{
         position: relative;
