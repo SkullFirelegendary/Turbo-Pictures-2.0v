@@ -14,6 +14,7 @@
 }
 .body2{
     background-color: black;
+    width: 100%;
 }
 body{
     background-color: #F6890A;
@@ -128,10 +129,11 @@ button:hover{
 .text{
     color: #f2f3f2;
     font-size: 15px;
-    padding: 8px 12px;
-    position: relative;
-    bottom: 550px;
-    width: 100%;
+    /* padding: 8px 12px; */
+    /* position: relative; */
+    /* bottom: 550px; */
+    /* top: auto; */
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -140,10 +142,13 @@ button:hover{
     color: #f2f3f2;
     font-size: 12px;
     position: relative;
-    bottom: -20px;
     left: -44%;
 }
-
+.number_text,.text{
+    position: relative;
+    bottom: -30px;
+    
+}
 .dot{
     cursor: pointer;
     height: 15px;
@@ -199,7 +204,7 @@ footer{
 }
 
 .about img{
-    width: 500px;
+    width: 50%;
 }
 
 .text_info{
@@ -218,14 +223,9 @@ footer{
 
 .Lets_chat button{
     font-size: 20px;
-    width: 300px;
-}
-
-.Lets_chat button{
-    font-size: 20px;
-    width: 300px;
+    width: 50%;
     position: relative;
-    right: -300px;
+    left: 25%;
 }
 
 .Lets_chat button:hover{
@@ -236,13 +236,11 @@ footer{
 
 video{
     vertical-align: middle;
-    width: 900px;
+    width: 95%;
     border-radius: 20px;
 }
 
 .text .caption{
-    position: relative;
-    bottom: -50px;
     color: whitesmoke;
 }
 
@@ -263,11 +261,9 @@ video{
         text-shadow: black;
         text-align: center;
     }
-    .text{
-        bottom: 225px;
-    }
+    
     .about img{
-        width: 300px;
+        /* width: 300px; */
         height: 200px;
     }
 
@@ -275,13 +271,13 @@ video{
         position: relative;
         bottom: 180px;
     }
+    .contact_icons a{
+        font-size: 80%;
+    }
 
     .Lets_chat button{
         position: relative;
-        right: 0px;
-    }
-
-    video{
-        width: 500px; 
+        left: 0px;
+        width: 100%;
     }
 }
